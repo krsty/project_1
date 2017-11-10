@@ -102,9 +102,66 @@ Apparently, using the .selectAll on the bar chart as a variable, and splitting t
 
 After some digging around I found out that the problem was in my .css file. I had forgotten to close the declaration above the tooltip property, and my tooltip started working again. 
 
-![screen 18](screenshots/19.png
+![screen 18](screenshots/19.png)
 
 I was able to style the tooltip with basic css, since the tooltip is linked to class.
+
+# Line Chart
+
+### My Goal
+
+The goal is to show the time evolution of religions globally in 65 years, from 1945 to 2010.
+I’m going to use a Line Graph, because I find this graph to be perfect for showing time-based data. I can also use multiple lines in this graph, with that I can display the timeline of multiple religions at the same time.
+
+## Getting Started
+
+First I had to find a skeleton to work off of.
+
+My search was pretty specific: Line Graph with Tooltip v4. Because of this I immediatly found a great starting block: [Link to Line Graph](http://bl.ocks.org/wdickerson/64535aff478e8a9fd9d9facccfef8929) I especially like the fact that the tooltip shows the date, and the values of all the different would-be religions. 
+
+![screen 19](screenshots/20.png)
+
+The only problem I saw with the JS is that this person used const’s and let. I didn’t know what these things were when I first saw them so I decided to do some research on it. The whole code in general seemed a bit intimidating, but I could make sense out of some of it. 
+
+Turns out, I can just replace const with var and everything will still work, great! [Link](https://developer.mozilla.org/nl/docs/Web/JavaScript/Reference/Statements/const)
+
+I copied and pasted the code from the example, and separated the HTML from the script. Then I started adding my own data. 
+Now I was running into some problems. When I changed the data in json, the lines started disappearing. I started getting the error: “TypeError: chart.selectAll(...).data(...).enter is not a function”. Leading me to believe something might be telling the script that there can only be 3 lines in total. 
+
+After taking a good look at my .json file, and with the help of my classmate, I noticed I hadn’t closed off the fourth line properly. So I fixed that. I had forgotten to add a ] at the end.
+
+Now that I had all my data I had to edit the range of the graph, so that the values match the maximum and all the lines are better visible
+
+![screen 20](screenshots/21.png)
+![screen 21](screenshots/22.png)
+
+The y axis said 2G and I’ve fixed that by adding d3.axisLeft(y).tickFormat(d3.format(',.0f')); I’ve changed the tickformat: (',.0f’) using this, the y axis shows the accurate numbers with comma’s to make it more readable.
+After doing this my Line Graph was showing my data.
+
+### Tooltip
+
+Now I noticed that the tooltip only shows every 10 year interval, and skips the 5 year. I went searching in my code and found this:
+```
+function drawTooltip() {
+  var year = Math.floor((x.invert(d3.mouse(tipBox.node())[0]) + 0) / 10) * 10;
+```
+After changing the math to + 0) / 5) * 5;, the tooltip seemed to work! Now it’s time to style my tooltip.
+
+I’ve changed the height of the SVG so that the tooltip will underneath the Graph, for beter visability. I also added a border instead of a background color. I’ve changed the font & added a column for readability.
+
+![screen 22](screenshots/23.png)
+
+### Navigation
+
+Now it’s time to add some navigation between the two graphs i’ve made. I’ve decided to just add simple HTML and CSS to the headers of both graphs. Making buttons that will lead to each graph. I’ve also started styling everything.
+
+![screen 23](screenshots/24.png)
+
+I’ve added a button underneath my bar chart that links to assignment B, which is an animation of a fantasy graph.
+
+![screen 24](screenshots/25.png)
+
+
 
 
 
