@@ -1,6 +1,20 @@
-# project_1
+# Information Design Project 1 (Individual)
 Course Information Design First Project
 
+![Preview](screenshots/26.png)
+
+### Features
+
+*	d3.json - load and parse data
+*	d3.tickFormat - format y axis tick text
+* 	d3.scale.ordinal - x-position encoding
+* 	d3.scale.linear - y-position encoding
+* 	d3.max - compute domains
+* 	d3.svg.axis - display axes
+
+
+### Background
+I was assigned to make some charts using d3 about the subject Religion. Because I had already done some research for data about the correlation between Religion and Technology. For this assignment we had two parts, Part A was all about coding and getting everything right and by the books. Part B is a graph where you can be as creative as you want. The data doesn't even have to be real, as long as you can show that you have a talent for data visualisation.
 
 ## My Data
 
@@ -106,7 +120,7 @@ After some digging around I found out that the problem was in my .css file. I ha
 
 I was able to style the tooltip with basic css, since the tooltip is linked to class.
 
-# Line Chart
+# Line Graph
 
 ### My Goal
 
@@ -161,10 +175,17 @@ I’ve added a button underneath my bar chart that links to assignment B, which 
 
 ![screen 24](screenshots/25.png)
 
-Here's what my graphs looked like after I styld them:
+Here's what my graphs looked like after I styled them:
 
 ![screen 25](screenshots/26.png)
 ![screen 26](screenshots/27.png)
+
+# Licenses
+### Bar Chart
+Released under the [GNU General Public License, version 3](https://opensource.org/licenses/GPL-3.0)
+
+### Line Graph
+Released under the [The MIT License](https://opensource.org/licenses/MIT)
 
 # Assignment B
 The goal of this assignment is to make a fantasy chart that you probably can’t code yourself (yet!)
