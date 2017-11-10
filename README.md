@@ -27,56 +27,83 @@ First thing’s first, find a skeleton to work off of.
 I used the Simple Bar Chart in V4 by Mike Bostock [Link to Bar Chart](https://bl.ocks.org/mbostock/3885304) for the base.
 I copied and pasted his code, and separated HTML from CSS and Javascript. 
 
-![screen1](1.png)
+![screen 1](screenshots/1.png)
 
 Now that I had a working skeleton, I had to add my own data. Using Excel I deleted rows of data that I didn’t need, and was left with the data that was relevant. I only used the rows which said for instance ‘Christianity_all’  instead of adding all the subgroups of christianity. The two dates that I kept the data for are 1950 and 2010. 
 
-[PIC2]
+![screen 2](screenshots/2.png)
 
 Now I put that data in a CSV format and added it to my files. To load in this CSV file I had to change the name of the dataset that was being loaded in. 
 
-[PIC5 + 6]
+![screen 3](screenshots/5.png)
+![screen 4](screenshots/6.png)
 
- Now I had to change all the instances where the code returned the wrong value from the dataset that was contained in the example. So d.salesperson changed to d.religon, and d.sales to d.believers. This way the chart would be returning values from my own data.
+Now I had to change all the instances where the code returned the wrong value from the dataset that was contained in the example. So d.salesperson changed to d.religon, and d.sales to d.believers. This way the chart would be returning values from my own data.
 
-[PIC3 + 4]
+![screen 5](screenshots/3.png)
+![screen 6](screenshots/4.png)
 
 I’ve changed the margins and width of my chart to make it a bit more organised. Now it looks like this:
 
-[PIC7]
+![screen 7](screenshots/7.png)
 
 After seeing how small and uninteresting some values are, like zoroastrianism, baha'i and taoism (They are way too small compared to the other religions) I’ve decided to add these values onto ‘Other religions’. After this change the chart became way more neat and understandable
 
-[PIC8]
+![screen 8](screenshots/8.png)
 
-The Tooltip
 
-I wanted to add a little bit of interaction in the form of a Tooltip. I’ve used one before, but it doesn’t work in V4 of D3.js. When I try to add it I get the error “d3-tip is not a function”. I really wanted a tooltip, because it gives the user some extra insight into how much believers there are, because I don’t have a super detailed y-axis. So I went looking on the internet for a tooltip that could be used in V4. After looking around I found this person: (https://github.com/VACLab/d3-tip) It seemed like he had the same troubles as me
+## The Tooltip
 
-[PIC9]
+I wanted to add a little bit of interaction in the form of a Tooltip. I’ve used one before, but it doesn’t work in V4 of D3.js. When I try to add it I get the error “d3-tip is not a function”. I really wanted a tooltip, because it gives the user some extra insight into how much believers there are, because I don’t have a super detailed y-axis. So I went looking on the internet for a tooltip that could be used in V4. After looking around I found this person: [Link to Tooltip](https://github.com/VACLab/d3-tip) It seemed like he had the same troubles as me
+
+![screen 10](screenshots/10.png)
 
 He claimed to have made a tooltip that can be used with V4 and without ES6. In his words: “The version of d3-tip in this repository is D3js v4 compatible. At the same time, it does not require ES6 support from your browser. This is accomplished with two basic changes.
-	1.	d3.functor is defined. This was defined in version 3 of D3, but disappeared in version 4. It gets redefined in this version of d3-tip. 
-	2.	d3.tip is defined. This mimics the prior behavior of d3-tip, allowing you to use tooltips as documented in the original repository (https://github.com/Caged/d3-tip).”
-After reading this I tried to use his tooltip in my own code. I went and took a look in his .js file: (https://github.com/VACLab/d3-tip/blob/master/d3-tip.js) I noticed that it looked really complicated and I was lost reading it.
-[pic10]
-I decided to move on to find another tooltip. I stumbled upon this: (https://bl.ocks.org/alandunning/274bf248fd0f362d64674920e85c1eb7) This person used the same bar chart as a building block, so this should be easy! 
+
+```
+	1.	d3.functor is defined. This was defined in version 3 of D3, but disappeared in version 4. It gets redefined in this version of d3-tip.
+	2.	d3.tip is defined. This mimics the prior behavior of d3-tip, allowing you to use tooltips as documented in the original repository [Link](https://github.com/Caged/d3-tip).
+```
+
+After reading this I tried to use his tooltip in my own code. I went and took a look in his .js file: [Link](https://github.com/VACLab/d3-tip/blob/master/d3-tip.js) I noticed that it looked really complicated and I was lost reading it.
+
+![screen 11](screenshots/11.png)
+
+I decided to move on to find another tooltip. I stumbled upon this: [Link to tooltip](https://bl.ocks.org/alandunning/274bf248fd0f362d64674920e85c1eb7) This person used the same bar chart as a building block, so this should be easy! 
+
 I started adding all the tooltip codes to my own, changing the values to those that matched my data, and soon found some errors. The first one was that ‘Colours are not defined’ I found that they added a fill to the bar svg. So I deleted that line of code. After that, I didn’t get any errors, but my bar chart had turned black, ignoring my css… The tooltip was working though! (The only thing about that was I forgot to delete the pound symbol from the example). 
+![screen 12](screenshots/14.png)
+![screen 13](screenshots/13.png)
+![screen 14](screenshots/12.png)
+
 The example had made a variable of the colors of the bars using a range. so I guess I had to do the same. I didn’t mind, as color didn’t play a big part of my chart. So I re-added the fill attribute and added the colour variables, and everything was fine again. 
-[pic]
+
+![screen 15](screenshots/16.png)
+
 I was going to worry about the colors and styling later. On to the transition!
 The Transition
-For the transition I used this example: (https://bl.ocks.org/jamesleesaunders/f32a8817f7724b17b7f1), All I had to do was add a transition with a delay, and make sure that the height that the animation will go to matches the y axis and my data.
+For the transition I used this example: [Link to Transition](https://bl.ocks.org/jamesleesaunders/f32a8817f7724b17b7f1), All I had to do was add a transition with a delay, and make sure that the height that the animation will go to matches the y axis and my data. I also had to make sure all the attributes were in the right order.
+```
 .transition()
         .duration(1000)
         .delay(100)
         .attr("y", function(d) { return y(d.believers); })
         .attr("height", function(d) { return height - y(d.believers); })
-Uh-oh
-After Adding the transition, my tooltip stopped working and i recieved the error Error: unknown type: mousemove in my console log. I started looking at my code and rearranging the attributes in my bar svg. But nothing worked. I went to google for help. It turned out someone had the same problem as me. (https://stackoverflow.com/questions/22645162/d3-when-i-add-a-transition-my-mouseover-stops-working-why)
+	```
+	
+### Uh-oh
+After Adding the transition, my tooltip stopped working and i recieved the error "Error: unknown type: mousemove" in my console log. 
+I started looking at my code and rearranging the attributes in my bar svg. But nothing worked. I went to google for help. It turned out someone had the same problem as me. [Link](https://stackoverflow.com/questions/22645162/d3-when-i-add-a-transition-my-mouseover-stops-working-why)
+
 Apparently, using the .selectAll on the bar chart as a variable, and splitting the transition from the tooltip mouse events should work. So I tried it. It dit take care of the error, but my tooltip still wasn’t showing up. 
+
+![screen 16](screenshots/18.png) to 
+![screen 17](screenshots/17.png)
+
 After some digging around I found out that the problem was in my .css file. I had forgotten to close the declaration above the tooltip property, and my tooltip started working again. 
-[pic]
+
+![screen 18](screenshots/19.png
+
 I was able to style the tooltip with basic css, since the tooltip is linked to class.
 
 
