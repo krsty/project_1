@@ -166,5 +166,45 @@ Here's what my graphs looked like after I styld them:
 ![screen 25](screenshots/26.png)
 ![screen 26](screenshots/27.png)
 
+# Assignment B
+The goal of this assignment is to make a fantasy chart that you probably can’t code yourself (yet!)
+For my fantasy chart i’ve chosen to stay in the same headspace as the two charts I have already made. So something to do with religion.
 
+### Trying to come up with something interesting...
+So since I was basing my fantasy graph on the same data, I had to start brainstorming about what might be an interesting insight. My coach had told me about the huge shifts in religion Indonesia has had, and I started creating ideas for graphs around that. 
 
+- - - - 
+
+The only problem was, I couldn't really think of a good insight that would result from this, and how it might fit in with my other graphs. It felt kind of weird to suddenly zoom in on a country. After doing some research I found out that the shift in religion for Indonesia started in the 1400's so that would also mean going further back in time. 
+
+I decided I should retire Indonesia and go back to looking at religion from a global viewing point. Then I got an idea of how to show WHERE the believers were, instead of just how many there were. I came up with an idea for a graph that would turn words, in this case names of countries, into a religious symbol. The size of the words would implicate the number of believers.
+
+--- 
+
+After showing it to my coach he said that this wouldn't really give a big insight in the data, and I agreed. Even though I liked the idea, it was a little bit tame seeing as I could even make up data for this fantasy graph. He suggested to maybe think of people who switch religions and how I could visualise that.
+
+I thought it was a good idea and already ideas started pouring into my head. The idea of data pouring out of that boring old Bar Chart to showcase a dataset that would be extremely hard to get by if it was real: How many people went from one religion, to another? 
+
+### My Graph
+Since the data I’ve used for my first two charts is quite extensive, I’ve decided to use the same dataset for my fantasy chart, or at least the base of my chart. I wanted to make a fantasy chart using fantasy data. In this case the chart I have made for assignment B shows us how many people changed their religion in the past 65 years (from 1945 - 2010), in this case, I’ve chosen to show you an example of what that fantasy graph would look like. Using animation!  
+
+![screen 27](screenshots/28.png)
+
+The graph starts with the Bar Chart I made that shows the current most populair religions. If you were to click on a bar, in this case the first bar that stands for Christianity (as shown in my Bar Chart), something interesting will happen. The bar will start leaking value. It seems as if the bar itself is losing some data. 
+
+![screen 28](screenshots/29.png)
+
+The data is caught by a type of bowl, which will then weigh the liquid data that has just poured out of our bar chart, and gives us the number of people who have changed their beliefs from being a christian. 
+
+![screen 29](screenshots/30.png)
+
+Now a button appears that asks the question on everyone’s mind “What happened?” Well the animation shows that after the button is clicked, this liquid data starts leaking out and pouring into new bars that are slowly filling up to their respective values. 
+
+![screen 30](screenshots/31.png)
+![screen 31](screenshots/32.png)
+
+You can now see where the percentage of the christians that lost their faith went to. 
+
+![screen 32](screenshots/33.png)
+
+And this process would be exactly the same (but in a different color and with a different outcome) If you had clicked on a different bar in the Bar Chart.
