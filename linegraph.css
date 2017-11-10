@@ -1,0 +1,54 @@
+body{
+    background-color:#EAE5D2;
+}
+
+#header{
+    width:100%;
+    margin:0 auto;
+    display:flex;
+    text-align:center;
+    margin-left: 260px;
+
+}
+
+#header img{
+    padding-top:30px;
+}
+
+a{
+    text-decoration: none;
+}
+
+h1{
+    font-family: "Impact";
+    font-size:40px;
+    text-transform:uppercase;
+    display:block;
+    color:#6BB7B4;
+}
+
+text{
+    font-family:"Arial";
+    font-size:12px;
+}
+
+.axis path,
+.axis line {
+    fill: none;
+    stroke: #67b1ad;
+    stroke-width: 3px;
+    shape-rendering: geometricPrecision;
+}
+
+
+#tooltip{
+    font-family:"Impact";
+    border: solid 3px #6BB7B4;
+    margin-left:350px;
+    height:120px;
+    width:500px;
+    padding-top:10px;
+    text-align:center;
+    column-count: 2;
+}
+

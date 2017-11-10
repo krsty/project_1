@@ -1,0 +1,578 @@
+[
+  {
+    "name": "Christianity",
+    "show": true,
+    "color": "#6F257F",
+    "currentPopulation": 2111912953,
+    "history": [
+      {
+        "year": 1945,
+        "population": 701350290
+      },
+      {
+        "year": 1950,
+        "population": 696480122
+      },
+      {
+        "year": 1955,
+        "population": 836002102
+      },
+      {
+        "year": 1960,
+        "population": 966967595
+      },
+      {
+        "year": 1965,
+        "population": 1074713786
+      },
+      {
+        "year": 1970,
+        "population": 1176605676
+      },
+      {
+        "year": 1975,
+        "population": 1300116609
+      },
+      {
+        "year": 1980,
+        "population": 1392078609
+      },
+      {
+        "year": 1985,
+        "population": 1506919051
+      },
+      {
+        "year": 1990,
+        "population": 1695081219
+      },
+      {
+        "year": 1995,
+        "population": 1785414969
+      },
+      {
+        "year": 2000,
+        "population": 1890923184
+      },
+      {
+        "year": 2005,
+        "population": 1990731467
+      },
+      {
+        "year": 2010,
+        "population": 2111912953
+      }
+    ]
+  },
+  {
+    "name": "Islam",
+    "show": true,
+    "color": "#CA0D59",
+    "currentPopulation": 1555482766,
+    "history": [
+      {
+        "year": 1945,
+        "population": 130760281
+      },
+      {
+        "year": 1950,
+        "population": 294121067
+      },
+      {
+        "year": 1955,
+        "population": 344072007
+      },
+      {
+        "year": 1960,
+        "population": 435123088
+      },
+      {
+        "year": 1965,
+        "population": 514634057
+      },
+      {
+        "year": 1970,
+        "population": 592342288
+      },
+      {
+        "year": 1975,
+        "population": 663674348
+      },
+      {
+        "year": 1980,
+        "population": 647139477
+      },
+      {
+        "year": 1985,
+        "population": 747128591
+      },
+      {
+        "year": 1990,
+        "population": 999680318
+      },
+      {
+        "year": 1995,
+        "population": 1154990606
+      },
+      {
+        "year": 2000,
+        "population": 1314048240
+      },
+      {
+        "year": 2005,
+        "population": 1426454346
+      },
+      {
+        "year": 2010,
+        "population": 1555482766
+      }
+    ]
+  },
+  {
+    "name": "Buddhism",
+    "show": true,
+    "color": "#2baa69",
+    "currentPopulation": 485246937,
+     "history": [
+      {
+        "year": 1945,
+        "population": 116237936
+      },
+      {
+        "year": 1950,
+        "population": 159011902
+      },
+      {
+        "year": 1955,
+        "population": 179384199
+      },
+      {
+        "year": 1960,
+        "population": 200439159
+      },
+      {
+        "year": 1965,
+        "population": 212593384
+      },
+      {
+        "year": 1970,
+        "population": 228802634
+      },
+      {
+        "year": 1975,
+        "population": 260324284
+      },
+      {
+        "year": 1980,
+        "population": 298402116
+      },
+      {
+        "year": 1985,
+        "population": 337670689
+      },
+      {
+        "year": 1990,
+        "population": 375247755
+      },
+      {
+        "year": 1995,
+        "population": 411955330
+      },
+      {
+        "year": 2000,
+        "population": 388256056
+      },
+      {
+        "year": 2005,
+        "population": 474117121
+      },
+      {
+        "year": 2010,
+        "population": 485246937
+     }
+    ]
+  },
+      {
+    "name": "Hinduism",
+    "show": true,
+    "color": "#3fb2e0",
+    "currentPopulation": 1017342648,
+     "history": [
+      {
+        "year": 1945,
+        "population": 5389197
+      },
+      {
+        "year": 1950,
+        "population": 301349500
+      },
+      {
+        "year": 1955,
+        "population": 328704605
+      },
+      {
+        "year": 1960,
+        "population": 361169167
+      },
+      {
+        "year": 1965,
+        "population": 397863182
+      },
+      {
+        "year": 1970,
+        "population": 449824489
+      },
+      {
+        "year": 1975,
+        "population": 488621807
+      },
+      {
+        "year": 1980,
+        "population": 537594394
+      },
+      {
+        "year": 1985,
+        "population": 601622535
+      },
+      {
+        "year": 1990,
+        "population": 659849828
+      },
+      {
+        "year": 1995,
+        "population": 720868905
+      },
+      {
+        "year": 2000,
+        "population": 875605734
+      },
+      {
+        "year": 2005,
+        "population": 947361362
+      },
+      {
+        "year": 2010,
+        "population": 1017342648
+      }
+    ]
+  },
+    {
+    "name": "Shinto",
+    "show": true,
+    "color": "#e09b3f",
+    "currentPopulation": 108343192,
+     "history": [
+      {
+        "year": 1945,
+        "population": 55228775
+      },
+      {
+        "year": 1950,
+        "population": 65452839
+      },
+      {
+        "year": 1955,
+        "population": 68145114
+      },
+      {
+        "year": 1960,
+        "population": 71357167
+      },
+      {
+        "year": 1965,
+        "population": 74982591
+      },
+      {
+        "year": 1970,
+        "population": 79156350
+      },
+      {
+        "year": 1975,
+        "population": 85416548
+      },
+      {
+        "year": 1980,
+        "population": 89429228
+      },
+      {
+        "year": 1985,
+        "population": 92520741
+      },
+      {
+        "year": 1990,
+        "population": 94607820
+      },
+      {
+        "year": 1995,
+        "population": 96137007
+      },
+      {
+        "year": 2000,
+        "population": 97189265
+      },
+      {
+        "year": 2005,
+        "population": 107221255
+      },
+      {
+        "year": 2010,
+        "population": 108343192
+      }
+    ]
+  },
+    {
+    "name": "Syncretism",
+    "show": true,
+    "color": "#e03f3f",
+    "currentPopulation": 590530545,
+     "history": [
+      {
+        "year": 1945,
+        "population": 428660117
+      },
+      {
+        "year": 1950,
+        "population": 431942094
+      },
+      {
+        "year": 1955,
+        "population": 385702150
+      },
+      {
+        "year": 1960,
+        "population": 325016083
+      },
+      {
+        "year": 1965,
+        "population": 358844822
+      },
+      {
+        "year": 1970,
+        "population": 379156729
+      },
+      {
+        "year": 1975,
+        "population": 372344153
+      },
+      {
+        "year": 1980,
+        "population": 398417206
+      },
+      {
+        "year": 1985,
+        "population": 435629032
+      },
+      {
+        "year": 1990,
+        "population": 469199898
+      },
+      {
+        "year": 1995,
+        "population": 503019620
+      },
+      {
+        "year": 2000,
+        "population": 562844555
+      },
+      {
+        "year": 2005,
+        "population": 569336868
+      },
+      {
+        "year": 2010,
+        "population": 590530545
+      }
+    ]
+  },
+    {
+    "name": "Animism",
+    "show": true,
+    "color": "#3f53e0",
+    "currentPopulation": 174264339,
+     "history": [
+      {
+        "year": 1945,
+        "population": 33210080
+      },
+      {
+        "year": 1950,
+        "population": 88853880
+      },
+      {
+        "year": 1955,
+        "population": 93710944
+      },
+      {
+        "year": 1960,
+        "population": 135768801
+      },
+      {
+        "year": 1965,
+        "population": 160893706
+      },
+      {
+        "year": 1970,
+        "population": 167009224
+      },
+      {
+        "year": 1975,
+        "population": 168615279
+      },
+      {
+        "year": 1980,
+        "population": 165629178
+      },
+      {
+        "year": 1985,
+        "population": 166066939
+      },
+      {
+        "year": 1990,
+        "population": 182182331
+      },
+      {
+        "year": 1995,
+        "population": 192906325
+      },
+      {
+        "year": 2000,
+        "population": 166747465
+      },
+      {
+        "year": 2005,
+        "population": 171348718
+      },
+      {
+        "year": 2010,
+        "population": 174264339
+      }
+    ]
+  },
+     {
+    "name": "No Religion",
+    "show": true,
+    "color": "#d73fe0",
+    "currentPopulation": 788323943,
+     "history": [
+      {
+        "year": 1945,
+        "population": 153486530
+      },
+      {
+        "year": 1950,
+        "population": 192925316
+      },
+      {
+        "year": 1955,
+        "population": 304128449
+      },
+      {
+        "year": 1960,
+        "population": 434629671
+      },
+      {
+        "year": 1965,
+        "population": 474097850
+      },
+      {
+        "year": 1970,
+        "population": 588838181
+      },
+      {
+        "year": 1975,
+        "population": 690431832
+      },
+      {
+        "year": 1980,
+        "population": 737801266
+      },
+      {
+        "year": 1985,
+        "population": 788196309
+      },
+      {
+        "year": 1990,
+        "population": 838271280
+      },
+      {
+        "year": 1995,
+        "population": 802280726
+      },
+      {
+        "year": 2000,
+        "population": 782412122
+      },
+      {
+        "year": 2005,
+        "population": 743821311
+      },
+      {
+        "year": 2010,
+        "population": 788323943
+      }
+    ]
+  },
+    {
+    "name": "Other Religion",
+    "show": true,
+    "color": "#358f75",
+    "currentPopulation": 26572933,
+     "history": [
+      {
+        "year": 1945,
+        "population": 9856926
+      },
+      {
+        "year": 1950,
+        "population": 12145951
+      },
+      {
+        "year": 1955,
+        "population": 21379050
+      },
+      {
+        "year": 1960,
+        "population": 18904435
+      },
+      {
+        "year": 1965,
+        "population": 41159669
+      },
+      {
+        "year": 1970,
+        "population": 26258961
+      },
+      {
+        "year": 1975,
+        "population": 26800685
+      },
+      {
+        "year": 1980,
+        "population": 35031049
+      },
+      {
+        "year": 1985,
+        "population": 36373149
+      },
+      {
+        "year": 1990,
+        "population": 36282109
+      },
+      {
+        "year": 1995,
+        "population": 41903686
+      },
+      {
+        "year": 2000,
+        "population": 33542527
+      },
+      {
+        "year": 2005,
+        "population": 39044537
+      },
+      {
+        "year": 2010,
+        "population": 26572933
+      }
+    ]
+  }
+]
