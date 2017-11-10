@@ -16,11 +16,11 @@ The dataset was created by Zeev Maoz, University of California-Davis, and Errol 
 
 # Bar Chart
 
-## My Goal
+### My Goal
 
 To show the most popular religions around the globe I chose to use a Bar Chart, simply because this chart is very straightforward and will give you an immediate answer. In this case “What religion is the most popular around the world?”
 
-### Getting Started
+## Getting Started
 
 First thing’s first, find a skeleton to work off of. 
 
@@ -49,7 +49,7 @@ I’ve changed the margins and width of my chart to make it a bit more organised
 
 After seeing how small and uninteresting some values are, like zoroastrianism, baha'i and taoism (They are way too small compared to the other religions) I’ve decided to add these values onto ‘Other religions’. After this change the chart became way more neat and understandable
 
-![screen 8](screenshots/8.png)
+![screen 8](screenshots/9.png)
 
 
 ## The Tooltip
@@ -89,7 +89,7 @@ For the transition I used this example: [Link to Transition](https://bl.ocks.org
         .delay(100)
         .attr("y", function(d) { return y(d.believers); })
         .attr("height", function(d) { return height - y(d.believers); })
-	```
+```
 	
 ### Uh-oh
 After Adding the transition, my tooltip stopped working and i recieved the error "Error: unknown type: mousemove" in my console log. 
