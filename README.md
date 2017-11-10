@@ -173,17 +173,20 @@ For my fantasy chart i’ve chosen to stay in the same headspace as the two char
 ### Trying to come up with something interesting...
 So since I was basing my fantasy graph on the same data, I had to start brainstorming about what might be an interesting insight. My coach had told me about the huge shifts in religion Indonesia has had, and I started creating ideas for graphs around that. 
 
-- - - - 
+![schets 1](screenshots/schets2.png)
+![schets 2](screenshots/schets3.png)
 
 The only problem was, I couldn't really think of a good insight that would result from this, and how it might fit in with my other graphs. It felt kind of weird to suddenly zoom in on a country. After doing some research I found out that the shift in religion for Indonesia started in the 1400's so that would also mean going further back in time. 
 
+![schets 3](screenshots/schets1.png)
+
 I decided I should retire Indonesia and go back to looking at religion from a global viewing point. Then I got an idea of how to show WHERE the believers were, instead of just how many there were. I came up with an idea for a graph that would turn words, in this case names of countries, into a religious symbol. The size of the words would implicate the number of believers.
 
---- 
+![schets 4](screenshots/schets4.png)
 
 After showing it to my coach he said that this wouldn't really give a big insight in the data, and I agreed. Even though I liked the idea, it was a little bit tame seeing as I could even make up data for this fantasy graph. He suggested to maybe think of people who switch religions and how I could visualise that.
 
-I thought it was a good idea and already ideas started pouring into my head. The idea of data pouring out of that boring old Bar Chart to showcase a dataset that would be extremely hard to get by if it was real: How many people went from one religion, to another? 
+I thought it was a good idea and already ideas started pouring into my head. The idea of data pouring out of that boring old Bar Chart to showcase a dataset that would be extremely hard to get by if it was real: How many people went from one religion, to another? I started working on it right away.
 
 ### My Graph
 Since the data I’ve used for my first two charts is quite extensive, I’ve decided to use the same dataset for my fantasy chart, or at least the base of my chart. I wanted to make a fantasy chart using fantasy data. In this case the chart I have made for assignment B shows us how many people changed their religion in the past 65 years (from 1945 - 2010), in this case, I’ve chosen to show you an example of what that fantasy graph would look like. Using animation!  
