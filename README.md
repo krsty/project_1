@@ -191,11 +191,11 @@ I thought it was a good idea and already ideas started pouring into my head. The
 ### My Graph
 Since the data I’ve used for my first two charts is quite extensive, I’ve decided to use the same dataset for my fantasy chart, or at least the base of my chart. I wanted to make a fantasy chart using fantasy data. In this case the chart I have made for assignment B shows us how many people changed their religion in the past 65 years (from 1945 - 2010), in this case, I’ve chosen to show you an example of what that fantasy graph would look like. Using animation!  
 
-![screen 27](screenshots/28.jpg)
+![screen 27](screenshots/28.png)
 
 The graph starts with the Bar Chart I made that shows the current most populair religions. If you were to click on a bar, in this case the first bar that stands for Christianity (as shown in my Bar Chart), something interesting will happen. The bar will start leaking value. It seems as if the bar itself is losing some data. 
 
-![screen 28](screenshots/29.jpg)
+![screen 28](screenshots/29.png)
 
 The data is caught by a type of bowl, which will then weigh the liquid data that has just poured out of our bar chart, and gives us the number of people who have changed their beliefs from being a christian. 
 
