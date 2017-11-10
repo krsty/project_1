@@ -1,5 +1,7 @@
 # Information Design Project 1 (Individual)
-Course Information Design First Project Viewable online [Right Here](https://krsty.github.io/project_1/index.html) on Github Pages
+Course Information Design First Project 
+
+Viewable online [Right Here](https://krsty.github.io/project_1/index.html) on Github Pages
 
 ![Preview](screenshots/26.png)
 
