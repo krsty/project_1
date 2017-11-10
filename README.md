@@ -161,7 +161,10 @@ I’ve added a button underneath my bar chart that links to assignment B, which 
 
 ![screen 24](screenshots/25.png)
 
+Here's what my graphs looked like after I styld them:
 
+![screen 25](screenshots/26.png)
+![screen 26](screenshots/27.png)
 
 
 
